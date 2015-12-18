@@ -1,0 +1,302 @@
+body {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+    margin:0;
+    min-width: 100%;
+    padding:0;
+}
+/*Header*/
+header {
+    background-color: #dedbd4;
+    height: 12.5em;
+    width: auto;
+}
+.imgSmall {
+    border: 1px solid #E5E5E5;
+    height: auto;
+    margin: 20px;
+    float: left;
+    width: 320px;
+}
+.small-menu {
+    display: none;
+}
+.main-menu {
+    float:right;
+    list-style: none;
+    margin: 0;
+    padding: 5% 0 1% 0;
+    width: 60%;
+}
+.main-menu li {
+    border: 1px solid #E5E5E5;
+    display:inline-block;
+    float: right;
+    margin-right: 1%;
+}
+.main-menu a {
+    background-color: #efa913;
+    border: 1px solid #E5E5E5;
+    color: black;
+    display: block;
+    font-size: 1.3em;
+    margin-left: -.1em;
+    padding: .2em 0 .2em 0;
+    text-decoration: none;
+    text-align:center;
+    width: 8em;
+}
+.main-menu a:hover {
+    background-color:yellow;
+}
+.main-menu a:active {
+    background-color:greenyellow;
+    color: red;
+}
+/*End Header*/
+
+/*Banner*/
+.banner {
+    height: 100%;
+    margin-top: -1px;
+    width: auto;
+}
+.imgBig {
+    height: auto;
+    width: 100%;
+}
+/*End Banner*/
+
+/*Section Project1*/
+.project1 {
+    background-color: #dedbd4;
+    height: 22.5em;
+    margin-top: -19px;
+    width: 100%;
+}
+.capital1 {
+    clear: right;
+    padding: 1% 0 0 1%;
+}
+.project-text1 {
+    float: left;
+    height: auto;
+    margin-top: -26px;
+    width: 38%;
+}
+.text1 {
+    -webkit-column-width: 40%;
+    -moz-column-width: 40%;
+    column-width: 40%;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 3%;
+    -moz-column-gap: 3%;
+    column-gap: 1%;
+    padding: 2%;
+}
+.logo1 {
+    border: 1px solid #E5E5E5;
+    height: auto;
+    padding: 0;
+    float: left;
+    width: 340px;
+}
+.logo-project1 {
+    height: auto;
+    padding: 0;
+    float: left;
+    width: 340px;
+}
+/*Form*/
+form {
+    float: left;
+    width: 28%;
+    height: 70%;
+}
+/*End Form*/
+/*Load Form*/
+.input-form {
+    background-image: url("../img/button.png");
+    border: 1px solid #E5E5E5;
+    cursor:pointer;
+    float: left;
+    height:11%;
+    margin: 1em 0 0 20%;
+    overflow:hidden;
+    text-align: center;
+    width: 60%;
+}
+input[type="file"] {
+    border:none;
+    cursor:pointer;
+    filter:alpha(opacity:0);
+    margin-top: 1%;
+    opacity: 0;
+    padding:0px;
+}
+/*End Load Form*/
+
+/*Button*/
+#but1 {
+    background-color: #efa913;
+    border: 1px solid #E5E5E5;
+    cursor:pointer;
+    height: 11%;
+    font-size: 1em;
+    float: left;
+    margin: 10em 0 0 20%;
+    outline: none;
+    width: 60%;
+}
+/*End Button*/
+/*End Section Project1*/
+
+/*Section Project2*/
+.project2 {
+    background-color: #dedbd4;
+    height: 22.5em;
+    margin-top: -15px;
+    width: 100%;
+}
+.capital2 {
+    clear: right;
+    padding: 1% 0 0 1%;
+}
+.project-text2 {
+    float: left;
+    height: auto;
+    margin-top: -26px;
+    width: 38%;
+}
+.text2 {
+    -webkit-column-width: 40%;
+    -moz-column-width: 40%;
+    column-width: 40%;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 3%;
+    -moz-column-gap: 3%;
+    column-gap: 1%;
+    padding: 2%;
+}
+.logo2 {
+    border: 1px solid #E5E5E5;
+    height: auto;
+    padding: 0;
+    float: left;
+    width: 340px;
+}
+.logo-project2 {
+    height: auto;
+    padding: 0;
+    float: left;
+    width: 340px;
+}
+/*Form*/
+form {
+    float: left;
+    width: 28%;
+    height: 70%;
+}
+/*End Form*/
+/*Load Form*/
+.input-form {
+    background-image: url("../img/button.png");
+    border: 1px solid #E5E5E5;
+    cursor:pointer;
+    float: left;
+    height:11%;
+    margin: 1em 0 0 20%;
+    overflow:hidden;
+    text-align: center;
+    width: 60%;
+}
+input[type="file"] {
+    border:none;
+    cursor:pointer;
+    filter:alpha(opacity:0);
+    margin-top: 1%;
+    opacity: 0;
+    padding:0px;
+}
+/*End Load Form*/
+
+/*Button*/
+#but2 {
+    background-color: #efa913;
+    border: 1px solid #E5E5E5;
+    cursor:pointer;
+    height: 11%;
+    font-size: 1em;
+    float: left;
+    margin: 10em 0 0 20%;
+    outline: none;
+    width: 60%;
+}
+/*End Button*/
+/*End Section Project2*/
+
+/*Footer*/
+footer {
+    background-color: #dedbd4;
+    height: 10em;
+    margin-top: 3px;
+    width: auto;
+}
+footer h2 {
+    height: auto;
+    float: left;
+    padding-left: 1%;
+    width: 10%;
+}
+.link {
+    height: auto;
+    float: left;
+    width: 30%;
+    -webkit-column-width: 3%;
+    -moz-column-width: 3%;
+    column-width: 3%;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 4%;
+    -moz-column-gap: 4%;
+    column-gap: 4%;
+    padding: 2%;
+}
+.link a {
+    color: #000000;
+    font-size: 18px;
+    text-decoration: none;
+}
+.email{
+    background-color: #dedbd4;
+    height: auto;
+    float: left;
+    margin: 1% 0 0 310px;
+    width: 20%;
+}
+input[type="email"]{
+    border: none;
+    margin: 4%;
+    width: 86.66666666666667%;
+}
+input[placeholder="E-mail"] {
+    color: #000000;
+    font-size: .9em;
+    padding: 4% 0 4% 5%;
+}
+input[type="submit"]{
+    background-color: #efa913;
+    border: none;
+    color: #000000;
+    font-size: 1.2em;
+    margin: 4%;
+    padding: 4%;
+    width: 91.66666666666667%;
+}
+/*End Footer*/

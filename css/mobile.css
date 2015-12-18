@@ -1,0 +1,278 @@
+body {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+    margin:0;
+    min-width: 100%;
+    padding:0;
+}
+/*Header*/
+header {
+    background-color: #dedbd4;
+    height: 12.5em;
+    width: auto;
+}
+.imgSmall {
+    border: 1px solid #E5E5E5;
+    height: auto;
+    margin: 20px;
+    float: left;
+    width: 320px;
+}
+.main-menu {
+    display: none;
+}
+.small-menu {
+    float:right;
+    margin: 7% 5% 0 0;
+    list-style: none;
+    padding: 0;
+}
+.small-menu > li {
+    border: 1px solid #E5E5E5;
+    display: inline-block;
+    position: relative;
+}
+.small-menu a {
+    background-color: #efa913;
+    border-left: 1px solid #E5E5E5;
+    color: black;
+    display: block;
+    font-size: 1.3em;
+    margin-left: -.1em;
+    padding: .5em 0 .5em 0;
+    text-decoration: none;
+    text-align:center;
+    width: 8em;
+}
+.sub-menu a:hover {
+    background-color:yellow;
+}
+.sub-menu a:active {
+    background-color:greenyellow;
+    color: red;
+}
+.small-menu .sub:hover {
+    background-color:yellow;
+}
+.small-menu .sub-menu {
+    position: absolute;
+    display: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #FCF8E3;
+}
+.small-menu .sub-menu a {
+    margin-bottom: -1px;
+    border: 1px solid #E5E5E5;
+}
+.small-menu  > li:hover .sub-menu {
+    display: block;
+}
+/*End Header*/
+
+/*Banner*/
+.banner {
+    height: 100%;
+    margin-top: -1px;
+    width: auto;
+}
+.imgBig {
+    height: auto;
+    width: 100%;
+}
+.imgBigLeft{
+    border: none;
+    float: left;
+    width: 100%;
+}
+/*End Banner*/
+
+/*Section Project1*/
+.project1 {
+    background-color: #dedbd4;
+    height: 20em;
+    margin-top: -19px;
+    width: 100%;
+}
+.capital1 {
+    clear: right;
+    padding: 2% 0 0 2%;
+}
+.project-text1 {
+    float: left;
+    height: auto;
+    margin-top: -26px;
+    width: 100%;
+}
+.text1 {
+    -webkit-column-width: 30%;
+    -moz-column-width: 30%;
+    column-width: 30%;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 10%;
+    -moz-column-gap: 10%;
+    column-gap: 10%;
+    padding: 0 2% 0 2%;
+}
+.logo1 {
+    display: none;
+}
+.logo-project1 {
+    display: none;
+}
+/*Load Form*/
+.input-form {
+    display: none;
+}
+input[type="file"] {
+    display: none;
+}
+/*End Load Form*/
+
+/*Button*/
+#but1 {
+    display: none;
+}
+/*End Button*/
+/*End Section Project1*/
+
+/*Section Project2*/
+.project2 {
+    background-color: #dedbd4;
+    height: 20em;
+    margin-top: -15px;
+    width: 100%;
+}
+.capital2 {
+    clear: right;
+    padding: 2% 0 0 2%;
+}
+.project-text2 {
+    float: left;
+    height: auto;
+    margin-top: -26px;
+    width: 100%;
+}
+.text2 {
+    -webkit-column-width: 40%;
+    -moz-column-width: 40%;
+    column-width: 40%;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 3%;
+    -moz-column-gap: 3%;
+    column-gap: 1%;
+    padding: 2%;
+}
+.logo2 {
+    display: none;
+}
+.logo-project2 {
+    display: none;
+}
+/*Load Form*/
+.input-form {
+    display: none;
+}
+input[type="file"] {
+    display: none;
+}
+/*End Load Form*/
+
+/*Button*/
+#but2 {
+    display: none;
+}
+/*End Button*/
+
+/*End Section Project2*/
+
+/*Footer*/
+footer {
+    background-color: #dedbd4;
+    height: 10em;
+    margin-top: 3px;
+    width: auto;
+}
+footer h2 {
+    height: auto;
+    float: left;
+    padding-left: 1%;
+    width: 10%;
+}
+.link {
+    height: auto;
+    float: left;
+    padding: 24px 0 0 10%;
+    width: 45%;
+}
+.link a {
+    color: #000000;
+    font-size: 18px;
+    text-decoration: none;
+}
+.vanish {
+    display: none;
+}
+.email{
+    background-color: #dedbd4;
+    height: auto;
+    float: left;
+    margin: 24px 0 0 0;
+    width: 20%;
+}
+input[type="email"]{
+    border: none;
+    margin: 4%;
+    width: 86.66666666666667%;
+}
+input[placeholder="E-mail"] {
+    color: #000000;
+    font-size: .9em;
+    padding: 4% 0 4% 5%;
+}
+input[type="submit"]{
+    background-color: #efa913;
+    border: none;
+    color: #000000;
+    font-size: 1.2em;
+    margin: 4%;
+    padding: 4%;
+    width: 91.66666666666667%;
+}
+/*End Footer*/
+
+/*Adaptive*/
+@media (max-width:600px) {
+    header {
+        height: 20em;
+    }
+    .small-menu {
+        float:right;
+        margin: 7% 30% 0 0;
+        list-style: none;
+        padding: 0;
+    }
+}
+@media (max-width:1024px) and (min-width: 600px) {
+    .project1 {
+        height: 14em;
+    }
+    .project2 {
+        height: 14em;
+    }
+}
+@media (max-width:599px) and (min-width: 480px) {
+    .project1 {
+        height: 16em;
+    }
+    .project2 {
+        height: 16em;
+    }
+}
+/*End Adaptive*/

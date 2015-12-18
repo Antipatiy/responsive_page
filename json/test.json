@@ -1,0 +1,8 @@
+{
+  "0": "Project1",
+  "1": "This homework is intended to review ability to compose reusable markup in timely fashion. Not only the look and feel of the page will be evaluated during the assessment, overall coding style as well as structures developed will be evaluated too. Please do not submit any generated code as part of the project, if you are using sass or less, css should not be part of the project. Please focus on main section and proceed to optional sections once you are done with main section and still have time to work.",
+  "2": "img/3.jpg",
+  "3": "Project2",
+  "4": "The menu contains a few link items as tabs and an image above. The link items should disappear for the mobile version and be rendered as a list above the shrunken hero when the mobile menu has been toggled. The banner is a big image that should be shrunken to a reasonable size (maybe same size as menu) on mobile. The footer contains an input field where the user can enter his/her email address. On the left side there are a few links. For the mobile version, please only display the Hyperlink block.",
+  "5": "img/4.jpg"
+}
